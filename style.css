@@ -1,0 +1,369 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display';
+}
+:root{
+    --dark:#28283D;
+    --lightgray:#87879D;
+    --green:#4D96A9;
+    --purple: #855fb1;
+}
+
+
+.logo{
+    display: flex;
+    margin: 20px auto 0 auto ;
+    width: 119px;
+    height: 28px;
+   
+}
+.left{
+    width: 199px;
+    height: 153px;
+    margin-left: -2rem;
+    background-image: url(./assets/desktop/image-hero-left.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.right{
+    width: 199px;
+    height: 153px;
+    background-image: url(./assets/desktop/image-hero-right.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: -2rem;
+}
+
+.bg-image{
+    height: 15.3rem;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+h1,h2{
+    color: var(--dark);
+}
+
+h1{
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 44px;
+    text-align: center;
+    width:327px;
+    height:88px;
+}
+
+p{
+    color: var(--lightgray);
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 10px;
+    width:327px;
+    height:78px;
+}
+
+.text{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width:327px;
+}
+
+#green{
+    padding:16px 3px;
+    background-color: var(--green);
+    color: white;
+    width:193px;
+    height:58px;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+    border-radius: 2.9rem;
+}
+
+#purple{
+    width:139px;
+    height:58px;
+    background-color: var(--purple);
+    padding:16px 3px;
+    color:white;
+    border-radius: 2.9rem;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 10px auto;
+}
+
+.buttons{
+    margin: 40px auto 0 auto;
+    text-align: center;
+    align-items: center;
+}
+.divider-logo-1{
+    height: 14rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.stick {
+    height: 5.4rem;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+    border: 1px solid #87879D;
+}
+
+.circle {
+    width: 3.6rem;
+    height: 3.6rem;
+    background: #FAFAFA;
+    border: 1px solid rgba(135, 135, 157, 0.25);
+    border-radius: 29px;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+    color: #87879D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery img{
+    width:151px;
+    height:143px;
+    border-radius: 1rem;
+}
+
+.gallery{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap:15px;
+}
+
+h2{
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+h3{
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 4px;
+    color:var(--green);
+    text-align: center;
+    text-transform:uppercase;
+}
+
+.text1 p{
+    margin-top: 10px;
+}
+
+.text1{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width:327px;
+    margin-top: 65px;
+}
+
+footer{
+    background-image: url(./assets/mobile/image-footer.jpg);
+    width: 100%;
+    height: 24.8rem;
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 300px;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: normal;
+    background-color: hsl(193, 33%, 51%, .85);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divider-logo-2{
+     transform: translateY(-140px);
+     height: 14rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(-130px);
+}
+.footer-text p{
+font-weight: 500;
+font-size: 18px;
+line-height: 26px;
+text-align: center;
+color: #FAFAFA;
+margin-bottom: 3.2rem;
+padding: 0 2.4rem 0 2.4rem;
+}
+.footer-text h2{
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    color: #FAFAFA;
+    margin-bottom: 2.4rem;
+}
+
+.download-footer {
+    width: 13.3rem;
+    height: 3.8rem;
+    border-radius: 2.9rem;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    border: none;
+    margin-bottom: 10px;
+    background-color: #855fb1;
+}
+
+@media screen and (min-width:768px){
+    .left, .right{
+        margin-left: -5px;
+        height:300px;
+        width:390px;
+    }
+    .bg-image{
+        height:20rem;
+    }
+
+    .text h1{
+        font-size: 48px;
+        font-weight: 900;
+        width:339px;
+        height:96px;
+        line-height: 48px;
+    }
+
+    .text{
+        margin-top: 15px;
+    }
+
+    .text p{
+        width:360px;
+        height:52px;
+        line-height: 26px;
+        font-weight: 300;
+        font-size: 16px;
+        
+    }
+
+    .buttons{
+        display: flex;
+        column-gap: 10px;
+    }
+
+    .text1 h2{
+        font-size: 40px;
+        width:445px;
+        height:88px;
+        
+    }
+
+    .text1{
+        width:445px;
+    }
+    .text1 p{
+        width:445px;
+        font-weight: 400;
+    }
+
+    footer{
+        background-image: url(./assets/tablet/image-footer.jpg);
+    }
+
+    .footer-text h2{
+        width:350px;
+    }
+    .footer-text p{
+        width:573px;
+        height:52px;
+    }
+
+}
+
+@media screen and (min-width:1440px){
+   .text1{
+    margin-bottom: -80px;
+    transform: translateY(30px);
+   }
+  .text h1{
+    font-size: 64px;
+    line-height: 64px;
+    height:128px;
+    width:540px;
+  }
+
+  .text p{
+     width:540px;
+     height:52px;
+  }
+  .text{
+    width:540px;
+    height:340px;
+    margin-top: -210px;
+  }
+
+  .gallery img{
+    width:255px;
+    height:242px;
+  }
+
+  .footer-text{
+    display: flex;
+    flex-direction: row;
+    margin: 60px auto 0 auto;
+    column-gap: 80px;
+    
+    
+  }
+
+  .footer-text h2{
+    font-size: 40px;
+    line-height: 44px;
+    text-align: left;
+  }
+
+  .footer-text p{
+    width:390px;
+    height:78px;
+    text-align: left;
+  }
+
+}
+
+
+
